@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\Tests",
+    "\\Tests\\CM.Test"
   ],
-  "SelectedNode": "\\src\\Class1.cs",
+  "SelectedNode": "\\CustomerManagement.sln",
   "PreviewInSolutionExplorer": false
 }
