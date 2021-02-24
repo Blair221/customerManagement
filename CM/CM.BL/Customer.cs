@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CM.BL
 {
-    public class Class1
+    public class Customer
     {
+        public string EmailAdress { get; set; }
+        public int CustomerId { get; private set; }
+        public string LastName { get; private set; }
     }
 }
