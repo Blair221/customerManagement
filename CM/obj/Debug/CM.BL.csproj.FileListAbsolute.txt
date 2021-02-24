@@ -1,6 +1,0 @@
-C:\CodingProjects\customerManagement\CM\obj\Debug\CM.BL.csprojAssemblyReference.cache
-C:\CodingProjects\customerManagement\CM\obj\Debug\CM.BL.csproj.CoreCompileInputs.cache
-C:\CodingProjects\customerManagement\CM\bin\Debug\CM.dll
-C:\CodingProjects\customerManagement\CM\bin\Debug\CM.pdb
-C:\CodingProjects\customerManagement\CM\obj\Debug\CM.dll
-C:\CodingProjects\customerManagement\CM\obj\Debug\CM.pdb
