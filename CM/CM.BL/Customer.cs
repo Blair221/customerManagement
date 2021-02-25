@@ -20,6 +20,6 @@ namespace CM.BL
             {
                 return LastName + ", " + FirstName;
             }
-        }
+        } 
     }
 }
