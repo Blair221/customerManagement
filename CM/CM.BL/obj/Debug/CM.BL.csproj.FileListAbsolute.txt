@@ -1,0 +1,6 @@
+C:\CodingProjects\customerManagement\CM\CM.BL\bin\Debug\CM.BL.dll
+C:\CodingProjects\customerManagement\CM\CM.BL\bin\Debug\CM.BL.pdb
+C:\CodingProjects\customerManagement\CM\CM.BL\obj\Debug\CM.BL.csprojAssemblyReference.cache
+C:\CodingProjects\customerManagement\CM\CM.BL\obj\Debug\CM.BL.csproj.CoreCompileInputs.cache
+C:\CodingProjects\customerManagement\CM\CM.BL\obj\Debug\CM.BL.dll
+C:\CodingProjects\customerManagement\CM\CM.BL\obj\Debug\CM.BL.pdb
