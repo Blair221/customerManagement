@@ -8,8 +8,18 @@ namespace CM.BL
 {
     public class Customer
     {
-        public string EmailAdress { get; set; }
+        public string EmailAddress { get; set; }
         public int CustomerId { get; private set; }
-        public string LastName { get; private set; }
+        public string LastName { get; set; }
+
+        public string FirstName { get; set; }
+
+        public string FullName
+        {
+            get
+            {
+                return LastName + ", " + FirstName;
+            }
+        }
     }
 }
