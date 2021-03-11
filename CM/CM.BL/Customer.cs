@@ -29,6 +29,30 @@ namespace CM.BL
                 }
                 return fullName;
             }
-        } 
+        }
+
+        public static int InstanceCount { get; set; }
+
+        public bool Validate()
+        {
+            var isValid = true;
+
+            if (string.IsNullOrWhiteSpace(LastName)) isValid = false;
+            if (string.IsNullOrWhiteSpace(EmailAddress)) isValid = false;
+
+            return isValid;
+        }
+
+        public Customer Retrieve(int customerId)
+        {
+            // code is still to be written here
+            return new Customer();
+        }
+
+        public List<Customer> Retrieve()
+        {
+            // code is still to be written here
+            return new List<Customer>();
+        }
     }
 }
