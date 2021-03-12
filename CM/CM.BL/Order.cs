@@ -40,7 +40,7 @@ namespace CM.BL
 
             if (OrderDate == null) isValid = false;
 
-            return isValid; 
+            return isValid;  
         }
     }
 }
