@@ -93,5 +93,22 @@ namespace CM.BLTest
             //-- Assert
             Assert.AreEqual(expected, actual);
         }
+        [TestMethod]
+        public void ValidateValidNoLastName()
+        {
+            //-- Arrange
+            var customer = new Customer
+            {
+                EmailAddress = "bilbobaggins@gmail.com"
+            };
+
+            var expected = false;
+
+            //-- Act
+            var actual = customer.Validate();
+
+            //-- Assert
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
