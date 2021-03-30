@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CM.BL
 {
-    class Address
+   public class Address
     {
         public Address()
         {
