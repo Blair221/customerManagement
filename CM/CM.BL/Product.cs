@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CM.BL
 {
-    class Product
+    public class Product
     {
         public Product()
         {
@@ -23,18 +23,6 @@ namespace CM.BL
         public decimal? CurrentPrice { get; set; }
 
         public int ProductId { get; private set; }
-
-        public Product Retrieve(int productId)
-        {
-            // code that retrieves the defined product
-
-            return new Product();
-        }
-
-        public bool Save()
-        {
-            return true;
-        }
 
         public bool Validate()
         {

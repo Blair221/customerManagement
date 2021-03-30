@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace CM.BL
 {
-    class CustomerRepository
+    public class CustomerRepository
     {
+       public Customer Retrieve(int customerId)
+        {
+            Customer customer = new Customer(customerId);
+
+            if (customerId == 1)
+            {
+                customer.EmailAddress = "monkeydluffy@strawhat.com";
+                customer.FirstName = "Monkey D. ";
+                customer.LastName = "Luffy";            
+            }
+            return customer;
+        }
+
+        public bool Save(Customer customer)
+        {
+            // code that saves the passed in customer
+
+            return true;
+        }
     }
 }

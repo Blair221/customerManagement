@@ -50,17 +50,5 @@ namespace CM.BL
 
             return isValid;
         }
-
-        public Customer Retrieve(int customerId)
-        {
-            // code is still to be written here
-            return new Customer();
-        }
-
-        public List<Customer> Retrieve()
-        {
-            // code is still to be written here
-            return new List<Customer>();
-        }
     }
 }

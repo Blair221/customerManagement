@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CM.BL
 {
-    class Order
+     public class Order
     {
         public Order()
         {
@@ -19,20 +19,6 @@ namespace CM.BL
         public DateTimeOffset? OrderDate { get; set; }
 
         public int OrderId { get; private set; }
-
-        public Order Retrieve(int orderId)
-        {
-            //-- code for retrieval goes here
-
-            return new Order();
-        }
-
-        public bool Save()
-        {
-            //-- code to save an order goes here
-
-            return true;
-        }
 
         public bool Validate()
         {
