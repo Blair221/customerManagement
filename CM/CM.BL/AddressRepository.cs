@@ -42,7 +42,7 @@ namespace CM.BL
 
             address = new Address(2)
             {
-                AddressType = 1,
+                AddressType = 2,
                 StreetLine1 = "Thousand Sunny",
                 StreetLine2 = "Ship on the ocean",
                 City = "Water 7",
