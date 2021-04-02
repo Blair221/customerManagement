@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CM.BL
 {
-     public class Order
+     public class Order : EntityBase
     {
         public Order()
         {
@@ -24,7 +24,9 @@ namespace CM.BL
 
         public int OrderId { get; private set; }
 
-        public bool Validate()
+        public override string ToString() => $"{OrderDate.Value.Date} ({OrderId})";
+
+        public override bool Validate()
         {
             var isValid = true;
 

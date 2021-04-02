@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CM.BL
 {
-    public class Customer
+    public class Customer : EntityBase
     {
         public Customer(): this(0)
         {
@@ -23,6 +23,8 @@ namespace CM.BL
         public int CustomerId { get; private set; }
         public int CustomerType { get; set; }   
         public string LastName { get; set; }
+
+        public override string ToString() => FullName;
 
         public string FirstName { get; set; }
 
@@ -45,7 +47,7 @@ namespace CM.BL
 
         public static int InstanceCount { get; set; }
 
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 

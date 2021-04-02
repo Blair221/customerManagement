@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CM.BL
 {
-    public class Product
+    public class Product : EntityBase
     {
         public Product()
         {
@@ -24,7 +24,9 @@ namespace CM.BL
 
         public int ProductId { get; private set; }
 
-        public bool Validate()
+        public override string ToString() => ProductName;
+
+        public override bool Validate()
         {
             var isValid = true;
 
