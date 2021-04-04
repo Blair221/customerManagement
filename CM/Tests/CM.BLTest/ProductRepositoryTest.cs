@@ -25,5 +25,45 @@ namespace CM.BLTest
             Assert.AreEqual(expected.Description, actual.Description);
             Assert.AreEqual(expected.ProductName, actual.ProductName);
         }
+
+        [TestMethod]
+        public void SaveTestValid()
+        {
+            //-- Arrange
+            var productRepository = new ProductRepository();
+            var updatedProduct = new Product(2)
+            {
+                CurrentPrice = 24.99M,
+                Description = "a set of the first 3 volumes of the One Piece manga",
+                ProductName = "One Piece Manga",
+                HasChanges = true
+            };
+
+            //-- Act
+            var actual = productRepository.Save(updatedProduct);
+
+            //-- Assert
+            Assert.AreEqual(true, actual);
+        }
+
+        [TestMethod]
+        public void SaveTestMissingPrice()
+        {
+            //-- Arrange
+            var productRepository = new ProductRepository();
+            var updatedProduct = new Product(2)
+            {
+                CurrentPrice = null,
+                Description = "a set of the first 3 volumes of the One Piece manga",
+                ProductName = "One Piece Manga",
+                HasChanges = true
+            };
+
+            //-- Act
+            var actual = productRepository.Save(updatedProduct);
+
+            //-- Assert
+            Assert.AreEqual(false, actual);
+        }
     }
 }

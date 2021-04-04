@@ -22,11 +22,31 @@ namespace CM.BL
             return product;
         }
 
-        public bool Save()
+        public bool Save(Product product)
         {
-            // code that saves the product
+            var success = true;
 
-            return true;
+            if (product.HasChanges)
+            {
+                if (product.IsValid)
+                {
+                    if (product.IsNew)
+                    {
+                        // Call an insert stored procedure
+                    }
+                    else
+                    {
+                        // call an update stored procedure
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+            
+
+            return success;
         }
     }
 }

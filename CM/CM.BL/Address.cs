@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CM.BL
 {
-   public class Address
+   public class Address : EntityBase
     {
         public Address()
         {
@@ -34,7 +34,7 @@ namespace CM.BL
 
         public string StreetLine2 { get; set; }
 
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 
