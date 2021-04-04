@@ -57,7 +57,29 @@ namespace CM.BL
 
         public bool Save(Address address)
         {
-            return true;
+            var success = true;
+
+            if (address.HasChanges)
+            {
+                if (address.IsValid)
+                {
+                    if (address.IsNew)
+                    {
+                        // Call an insert stored procedure
+                    }
+                    else
+                    {
+                        // call an update stored procedure
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+
+
+            return success;
         }
     }
 }
