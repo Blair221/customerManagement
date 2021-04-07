@@ -1,0 +1,6 @@
+C:\CodingProjects\customerManagement\CM\Multipurpose.Common\bin\Debug\Multipurpose.Common.dll
+C:\CodingProjects\customerManagement\CM\Multipurpose.Common\bin\Debug\Multipurpose.Common.pdb
+C:\CodingProjects\customerManagement\CM\Multipurpose.Common\obj\Debug\Multipurpose.Common.csprojAssemblyReference.cache
+C:\CodingProjects\customerManagement\CM\Multipurpose.Common\obj\Debug\Multipurpose.Common.csproj.CoreCompileInputs.cache
+C:\CodingProjects\customerManagement\CM\Multipurpose.Common\obj\Debug\Multipurpose.Common.dll
+C:\CodingProjects\customerManagement\CM\Multipurpose.Common\obj\Debug\Multipurpose.Common.pdb

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Multipurpose.Common;
 
 namespace CM.BL
 {
@@ -16,7 +17,17 @@ namespace CM.BL
         {
             ProductId = productId;
         }
-        public string ProductName { get; set; }
+        private string _productName;
+
+        public string ProductName
+        {
+            get 
+            {
+                return _productName.InsertSpaces(); 
+            }
+            set { _productName = value; }
+        }
+
 
         public string Description { get; set; }
 
