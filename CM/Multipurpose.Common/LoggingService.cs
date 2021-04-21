@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Multipurpose.Common
 {
-    class Class1
+    public static class LoggingService
     {
+        public static void WriteToFile(List<ILoggable> itemsToLog)
+        {
+            foreach (var item in itemsToLog)
+            {
+                Console.WriteLine(item.Log());
+            }
+        }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Multipurpose.Common
 {
-    interface ILoggable
+    public interface ILoggable
     {
+        string Log();
     }
 }

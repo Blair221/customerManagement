@@ -14,3 +14,5 @@ C:\CodingProjects\customerManagement\CM\Multipurpose.CommonTest\obj\Debug\Multip
 C:\CodingProjects\customerManagement\CM\Multipurpose.CommonTest\obj\Debug\Multipurpose.CommonTest.csproj.CopyComplete
 C:\CodingProjects\customerManagement\CM\Multipurpose.CommonTest\obj\Debug\Multipurpose.CommonTest.dll
 C:\CodingProjects\customerManagement\CM\Multipurpose.CommonTest\obj\Debug\Multipurpose.CommonTest.pdb
+C:\CodingProjects\customerManagement\CM\Multipurpose.CommonTest\bin\Debug\CM.BL.dll
+C:\CodingProjects\customerManagement\CM\Multipurpose.CommonTest\bin\Debug\CM.BL.pdb

@@ -7,7 +7,7 @@ using Multipurpose.Common;
 
 namespace CM.BL
 {
-    public class Product : EntityBase
+    public class Product : EntityBase, ILoggable
     {
         public Product()
         {
@@ -47,5 +47,7 @@ namespace CM.BL
 
             return isValid;
         }
+
+        public string Log() => $"{ProductId}: {ProductName} Detail: {Description} Status: {EntityState.ToString()}";
     }
 }
